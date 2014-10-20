@@ -1,0 +1,51 @@
+{
+    "links": {
+        "sidebar": {
+            "Drupal项目社区": "http://www.drupalproject.org",
+            "PDF版下载": "http://www.drupalproject.org/pdfs/Ultimate-Guide-to-Drupal-8.pdf"
+        },
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "weibo": false,
+            "all": false
+        },
+        "gitbook": false
+    },
+    "pdf": {
+        "toc": false,
+        "pageNumbers": false,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        }
+
+    },
+    "plugins": ["autocover", "ga"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-49030129-1"
+        },
+        "autocover": {
+            "title": "Ultimate Guide to Drupal 8",
+            "author": "DrupalProject.org",
+            "font": {
+                "size": null,
+                "family": "Impact",
+                "color": "#09F"
+            },
+            "size": {
+                "w": 1800,
+                "h": 2360
+            },
+            "background": {
+                "color": "#FFF"
+            }
+        }
+    }
+}
